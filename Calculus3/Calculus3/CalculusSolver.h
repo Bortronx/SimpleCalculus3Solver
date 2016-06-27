@@ -1,7 +1,6 @@
-#pragma once
+
 #ifndef CALCULUSSOLVER_H
 #define CALCULUSSOLVER_H
-
 #include <iostream>	
 #include <cmath>
 #include <string.h>
@@ -12,16 +11,18 @@ class Point
 {
 
 public:
-	Point(float, float, float);
+	Point();
 	float x = 0, y = 0, z = 0;
 
 };
 
 
 
-Point::Point(float, float, float)
+Point::Point()
 {
-	float x = 0, y = 0, z = 0;
+	x = 0;
+	y = 0;
+	z = 0;
 }
 
 

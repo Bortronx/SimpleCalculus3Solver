@@ -1,10 +1,11 @@
-#pragma once
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
 #include "CalculusSolver.h" 
 
 
 using namespace std;
+
+
 
 //-- Functions
 void CheckSqrt(float value, float v)
